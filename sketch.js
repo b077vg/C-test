@@ -13,7 +13,7 @@ function setup() {
 	canvas.parent('canvas');
 	for(let i=0;i<25;i++){
 		//console.log(q);
-		img[i] = loadImage("data/picture1/Movie"+q+".jpg");
+		img[i] = loadImage("data/Movie"+q+".jpg");
 		q+=4;
 	}
 }
